@@ -1,15 +1,15 @@
 # AI Math Datasets
 
-This repo contains math datasets for training Math LLMs
+This repo contains **open-sourced** math datasets for training Math LLMs
 
-## Pre-training
+## ${\color{green}\text{Pre-training}}$
 
 arXiv Dataset
 
 🔗 **[Dataset](https://www.kaggle.com/datasets/Cornell-University/arxiv/data)**
 
 
-## SFT
+## ${\color{green}\text{SFT}}$
 
 ### Text Only 
 
@@ -29,7 +29,9 @@ OpenMathInstruct-2: 14M QA pairs
 
 **MultiMath300K**: [🔗 **[Project](https://github.com/pengshuai-rin/MultiMath)** ]: a multimodal, multilingual, multi-level, and multistep mathematical reasoning dataset that encompasses a wide range of K-12 level mathematical problem.
 
-## RL
+## ${\color{green}\text{RL}}$
+
+### Text Only 
 
 **PRM800K** [📄 **[Paper](https://arxiv.org/abs/2305.20050)** | 🔗 **[Project](https://openai.com/index/improving-mathematical-reasoning-with-process-supervision/)** | 🐙 **[Repo](https://github.com/openai/prm800k)** ]: A process supervision dataset containing 800,000 step-level correctness labels for model-generated solutions to problems from the MATH dataset.
 
@@ -37,9 +39,15 @@ OpenMathInstruct-2: 14M QA pairs
 
 ## Benchmarks
 
+### Text Only 
+
 **Lila**[🔗 **[Project](https://lila.apps.allenai.org/)** | 🤗 **[Dataset](https://huggingface.co/datasets/allenai/lila)** ]: A mathematical reasoning benchmark consisting of over 140K natural language questions from 23 diverse tasks.
 
 **MathBench**[📄 **[Paper](https://arxiv.org/abs/2405.12209)** | 🔗 **[Project](https://github.com/open-compass/MathBench)**]: A benchmark that tests large language models on math, covering five-level difficulty mechanisms. It evaluates both theory and problem-solving skills in English and Chinese.
+
+**MathOdyssey**[📄 **[Paper](https://arxiv.org/abs/2406.18321)** | 🔗 **[Project](https://mathodyssey.github.io/)** | 🐙 **[Repo](https://github.com/protagolabs/odyssey-math)**]: A collection of 387 mathematical problems for evaluating the general mathematical capacities of LLMs. Featuring a spectrum of questions from Olympiad-level competitions, advanced high school curricula, and university-level mathematics.
+
+**Omni-MATH**[📄 **[Paper](https://arxiv.org/abs/2410.07985)** | 🔗 **[Project](https://omni-math.github.io/)** | 🐙 **[Repo](https://github.com/KbsdJames/Omni-MATH)** | 🤗 **[Dataset](https://huggingface.co/datasets/KbsdJames/Omni-MATH)** ]: A challenging benchmark specifically designed to assess LLMs' mathematical reasoning at the Olympiad level.
 
 **HARP**[📄 **[Paper](https://arxiv.org/abs/2412.08819)** | 🐙 **[Repo](https://github.com/aadityasingh/HARP?tab=readme-ov-file)**]: A math reasoning dataset consisting of 4,780 short answer questions from US national math competitions
 
