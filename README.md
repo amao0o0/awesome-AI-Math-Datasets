@@ -4,14 +4,18 @@ This repo contains recent **open-sourced** math datasets (mainly English) for tr
 
 ## ${\color{green}\text{Pre-training}}$
 
+[📄 **[Paper]()** | 🔗 **[Project]()** | 🐙 **[Repo]()** | 🤗 **[Dataset]()** ]
+
 arXiv Dataset
 
 🔗 **[Dataset](https://www.kaggle.com/datasets/Cornell-University/arxiv/data)**
 
-[📄 **[Paper]()** | 🔗 **[Project]()** | 🐙 **[Repo]()** | 🤗 **[Dataset]()** ]
 
+**OpenWebMath** [📄 **[Paper](https://arxiv.org/pdf/2310.06786)** | 🐙 **[Repo](https://github.com/keirp/OpenWebMath)** | 🤗 **[Dataset](https://huggingface.co/datasets/open-web-math/open-web-math)**]: An open dataset inspired by these works containing 14.7B tokens of mathematical webpages from Common Crawl.
 
-**Proof-Pile-2** [ 🤗 **[Dataset](https://huggingface.co/datasets/EleutherAI/proof-pile-2)** ]: A 55 billion token dataset of mathematical and scientific documents from arxiv, open-web-math and algebraic-stack.
+**MathCode-Pile** [📄 **[Paper](https://arxiv.org/abs/2410.08196)** | 🤗 **[Dataset](https://huggingface.co/datasets/MathGenie/MathCode-Pile)**]: Containing 19.2B tokens, with math-related data covering web pages, textbooks, model-synthesized text, and math-related code. 
+
+**Proof-Pile-2** [🤗 **[Dataset](https://huggingface.co/datasets/EleutherAI/proof-pile-2)**]: A 55 billion token dataset of mathematical and scientific documents from arxiv, open-web-math and algebraic-stack.
 
 ## ${\color{green}\text{SFT}}$
 
