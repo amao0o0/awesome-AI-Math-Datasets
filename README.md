@@ -1,6 +1,6 @@
 # AI Math Datasets
 
-This repo contains **open-sourced** math datasets for training and evaluating Math LLMs
+This repo contains recent **open-sourced** math datasets (mainly English) for training and evaluating Math LLMs
 
 ## ${\color{green}\text{Pre-training}}$
 
@@ -8,7 +8,10 @@ arXiv Dataset
 
 🔗 **[Dataset](https://www.kaggle.com/datasets/Cornell-University/arxiv/data)**
 
-[📄 **[Paper]()** | 🔗 **[Project]()** | 🐙 **[Repo]()** | 🤗 **[Dataset]()** ]:
+[📄 **[Paper]()** | 🔗 **[Project]()** | 🐙 **[Repo]()** | 🤗 **[Dataset]()** ]
+
+
+**Proof-Pile-2** [ 🤗 **[Dataset](https://huggingface.co/datasets/EleutherAI/proof-pile-2)** ]: A 55 billion token dataset of mathematical and scientific documents from arxiv, open-web-math and algebraic-stack.
 
 ## ${\color{green}\text{SFT}}$
 
@@ -17,20 +20,22 @@ arXiv Dataset
 Elementary level 
 Small datasets: Alg514 [📄 **[Paper](https://aclanthology.org/P14-1026.pdf)** | 🔗 **[Project](http://groups.csail.mit.edu/rbg/code/wordprobs/)** ], 
 
+**SVAMP** [📄 **[Paper](https://arxiv.org/abs/2103.07191)** | 🐙 **[Repo](https://github.com/arkilpatel/SVAMP)** ]: A collection of 1,000 elementary-level math word problems.
+
 **GSM8K** [📄 **[Paper](https://arxiv.org/abs/2110.14168)** | 🔗 **[Project](https://openai.com/index/solving-math-word-problems/)** | 🐙 **[Repo](https://github.com/openai/grade-school-math?tab=readme-ov-file)** ]: A dataset consists of 8.5K high-quality grade school math word problems. Each problem takes between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations (+ − × ÷) to reach the final answer. 
 
 **MATH**[🔗 **[Project](https://github.com/hendrycks/math/)**]: A challenging dataset that extends beyond the high school level and covers diverse topics, including algebra, precalculus, and number theory. Each problem in MATH has a full step-by-step solution.
 
-**NuminaMath** [📄 **[Paper](http://faculty.bicmr.pku.edu.cn/~dongbin/Publications/numina_dataset.pdf)** | 🐙 **[Repo](https://github.com/project-numina/aimo-progress-prize)** | 🤗 **[Dataset](https://huggingface.co/AI-MO)** ]: a comprehensive collection of 860,000 pairs ranging from high-school-level to advanced-competition-level. The dataset have both CoT and PoT rationales (NuminaMath-CoT and -TIR (tool integrated reasoning))
+**NuminaMath** [📄 **[Paper](http://faculty.bicmr.pku.edu.cn/~dongbin/Publications/numina_dataset.pdf)** | 🐙 **[Repo](https://github.com/project-numina/aimo-progress-prize)** | 🤗 **[Dataset](https://huggingface.co/AI-MO)** ]: a comprehensive collection of 860,000 pairs ranging from high-school-level to advanced-competition-level. The dataset has both CoT and PoT rationales (NuminaMath-CoT and -TIR (tool integrated reasoning))
 
-OpenMathInstruct-2: 14M QA pairs
+**MetaMath** [📄 **[Paper](https://arxiv.org/abs/2309.12284)** | 🔗 **[Project](https://meta-math.github.io/)** | 🐙 **[Repo](https://github.com/meta-math/MetaMath)** | 🤗 **[Dataset](https://huggingface.co/datasets/meta-math/MetaMathQA)** ]: A dataset with 395K samples created by bootstrapping questions from MATH and GSM8K.
 
-📄 **[Paper](https://arxiv.org/abs/2410.01560)** | 🤗 **[Dataset](https://huggingface.co/collections/nvidia/openmath-2-66fb142317d86400783d2c7b)**
+**OpenMathInstruct-2** [📄 **[Paper](https://arxiv.org/abs/2410.01560)** | 🤗 **[Dataset](https://huggingface.co/collections/nvidia/openmath-2-66fb142317d86400783d2c7b)** ]: A math instruction tuning dataset with 14M problem-solution pairs generated using the Llama3.1-405B-Instruct model.
 
 
 ### Vision-Text Modality
 
-**MathV360K** [🔗 **[Project](https://github.com/HZQ950419/Math-LLaVA)** | 🤗 **[Dataset](https://huggingface.co/datasets/Zhiqiang007/MathV360K) ]: Consisting 40K images from 24 datasets and 360K question-answer pairs.
+**MathV360K** [🔗 **[Project](https://github.com/HZQ950419/Math-LLaVA)** | 🤗 **[Dataset](https://huggingface.co/datasets/Zhiqiang007/MathV360K)** ]: Consisting 40K images from 24 datasets and 360K question-answer pairs.
 
 **MultiMath300K**: [🔗 **[Project](https://github.com/pengshuai-rin/MultiMath)** ]: a multimodal, multilingual, multi-level, and multistep mathematical reasoning dataset that encompasses a wide range of K-12 level mathematical problem.
 
