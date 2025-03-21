@@ -36,6 +36,8 @@ Small datasets: Alg514 [📄 **[Paper](https://aclanthology.org/P14-1026.pdf)** 
 
 **OpenMathInstruct-2** [📄 **[Paper](https://arxiv.org/abs/2410.01560)** | 🤗 **[Dataset](https://huggingface.co/collections/nvidia/openmath-2-66fb142317d86400783d2c7b)** ]: A math instruction tuning dataset with 14M problem-solution pairs generated using the Llama3.1-405B-Instruct model.
 
+**CAMEL Math** [📄 **[Paper](https://arxiv.org/abs/2303.17760)** | 🤗 **[Dataset](https://huggingface.co/datasets/camel-ai/math)** ]: Containing 50K problem-solution pairs obtained using GPT-4. The dataset problem-solutions pairs generating from 25 math topics, 25 subtopics for each topic.
+
 
 ### Vision-Text Modality
 
