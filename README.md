@@ -30,6 +30,10 @@ Small datasets: Alg514 [📄 **[Paper](https://aclanthology.org/P14-1026.pdf)** 
 
 **MetaMath** [📄 **[Paper](https://arxiv.org/abs/2309.12284)** | 🔗 **[Project](https://meta-math.github.io/)** | 🐙 **[Repo](https://github.com/meta-math/MetaMath)** | 🤗 **[Dataset](https://huggingface.co/datasets/meta-math/MetaMathQA)** ]: A dataset with 395K samples created by bootstrapping questions from MATH and GSM8K.
 
+**MathInstruct** [📄 **[Paper](https://arxiv.org/pdf/2309.05653)** | 🔗 **[Project](https://tiger-ai-lab.github.io/MAmmoTH/)** | 🐙 **[Repo](https://github.com/TIGER-AI-Lab/MAmmoTH)** | 🤗 **[Dataset](https://huggingface.co/datasets/TIGER-Lab/MathInstruct)** ]: A instruction tuning dataset that combines data from 13 mathematical rationale datasets, uniquely focusing on the hybrid use of chain-of-thought (CoT) and program-of-thought (PoT) rationales.
+
+**CoinMath** [[📄 **[Paper](https://arxiv.org/abs/2412.11699)** | 🐙 **[Repo](https://github.com/TIGER-AI-Lab/MAmmoTH)** | 🤗 **[Dataset](https://huggingface.co/datasets/amao0o0/CoinMath)** ]: A dataset designed to enhance mathematical reasoning in large language models by incorporating diverse coding styles into code-based rationales. It includes math questions annotated with code-based solutions that feature concise comments, descriptive naming conventions, and hardcoded solutions
+
 **OpenMathInstruct-2** [📄 **[Paper](https://arxiv.org/abs/2410.01560)** | 🤗 **[Dataset](https://huggingface.co/collections/nvidia/openmath-2-66fb142317d86400783d2c7b)** ]: A math instruction tuning dataset with 14M problem-solution pairs generated using the Llama3.1-405B-Instruct model.
 
 
