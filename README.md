@@ -6,16 +6,23 @@ This repo contains recent **open-sourced** math datasets (mainly English) for tr
 
 [📄 **[Paper]()** | 🔗 **[Project]()** | 🐙 **[Repo]()** | 🤗 **[Dataset]()** ]
 
-arXiv Dataset
+### Text Only
 
-🔗 **[Dataset](https://www.kaggle.com/datasets/Cornell-University/arxiv/data)**
+**Open-Web-Math** [📄 **[Paper](https://arxiv.org/pdf/2310.06786)** | 🐙 **[Repo](https://github.com/keirp/OpenWebMath)** | 🤗 **[Dataset](https://huggingface.co/datasets/open-web-math/open-web-math)**]: An open dataset inspired by these works containing 14.7B tokens of mathematical webpages from Common Crawl.
 
+**Open-Web-Math-Pro** [📄 **[Paper](https://arxiv.org/pdf/2409.17115)** | 🐙 **[Repo](https://github.com/GAIR-NLP/ProX)** | 🤗 **[Dataset](https://huggingface.co/datasets/gair-prox/open-web-math-pro)**]：Refined from open-web-math using the ProX refining framework. It contains about 5B high-quality math-related tokens, ready for pre-training.
 
-**OpenWebMath** [📄 **[Paper](https://arxiv.org/pdf/2310.06786)** | 🐙 **[Repo](https://github.com/keirp/OpenWebMath)** | 🤗 **[Dataset](https://huggingface.co/datasets/open-web-math/open-web-math)**]: An open dataset inspired by these works containing 14.7B tokens of mathematical webpages from Common Crawl.
+**MathPile** [📄 **[Paper](https://huggingface.co/papers/2312.17120)** | 🐙 **[Repo](https://github.com/GAIR-NLP/MathPile/?tab=readme-ov-file)** | 🤗 **[Dataset](https://huggingface.co/datasets/GAIR/MathPile)** ]: A math-centric corpus comprising about 9.5 billion tokens.
 
-**MathCode-Pile** [📄 **[Paper](https://arxiv.org/abs/2410.08196)** | 🤗 **[Dataset](https://huggingface.co/datasets/MathGenie/MathCode-Pile)**]: Containing 19.2B tokens, with math-related data covering web pages, textbooks, model-synthesized text, and math-related code. 
+**MathCode-Pile** [📄 **[Paper](https://arxiv.org/abs/2410.08196)** | 🐙 **[Repo](https://github.com/mathllm/MathCoder2)** | 🤗 **[Dataset](https://huggingface.co/datasets/MathGenie/MathCode-Pile)**]: Containing 19.2B tokens, with math-related data covering web pages, textbooks, model-synthesized text, and math-related code. 
+
+**FineMath** [📄 **[Paper](https://arxiv.org/abs/2502.02737v1)** | 🤗 **[Dataset](https://huggingface.co/datasets/HuggingFaceTB/finemath)** ]: Consisting of 34B tokens (FineMath-3+) and 54B tokens (FineMath-3+ with InfiMM-WebMath-3+) of mathematical educational content filtered from CommonCrawl.
 
 **Proof-Pile-2** [🤗 **[Dataset](https://huggingface.co/datasets/EleutherAI/proof-pile-2)**]: A 55 billion token dataset of mathematical and scientific documents from arxiv, open-web-math and algebraic-stack.
+
+### Vision-Text Modality
+
+**InfiMM-WebMath-40B** [📄 **[Paper](https://arxiv.org/abs/2409.12568)** | 🤗 **[Dataset](https://huggingface.co/datasets/Infi-MM/InfiMM-WebMath-40B)** ]: A dataset of interleaved image-text documents. It comprises 24 million web pages, 85 million associated image URLs, and 40 billion text tokens, all meticulously extracted and filtered from CommonCrawl.
 
 ## ${\color{green}\text{SFT}}$
 
@@ -82,6 +89,8 @@ Small datasets: Alg514 [📄 **[Paper](https://aclanthology.org/P14-1026.pdf)** 
 **MathVista**[🔗 **[Project](https://mathvista.github.io/)** | 🤗 **[Dataset](https://huggingface.co/datasets/AI4Math/MathVista)** ]: A benchmark designed to combine challenges from diverse mathematical and visual tasks. It consists of 6,141 examples, derived from 28 existing multimodal datasets involving mathematics and 3 newly created datasets 
 
 **MATH-Vision**:[🔗 **[Project](https://mathllm.github.io/mathvision/)** | 🤗 **[Dataset](https://huggingface.co/datasets/MathLLMs/MathVision)** ]: A collection of 3,040 mathematical problems with visual contexts sourced from real math competitions. Spanning 16 distinct mathematical disciplines and graded across 5 levels of difficulty.
+
+**We-Math** [📄 **[Paper](https://arxiv.org/abs/2407.01284)** | 🔗 **[Project](https://we-math.github.io/)** | 🐙 **[Repo](https://github.com/We-Math/We-Math)** | 🤗 **[Dataset](https://huggingface.co/datasets/We-Math/We-Math)** ]: A collection of 6.5K visual math problems, spanning 67 hierarchical knowledge concepts and 5 layers of knowledge granularity.
 
 ## Related Repo
  
