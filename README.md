@@ -39,45 +39,35 @@ This repo contains recent **open-sourced** math datasets (mainly English) for tr
 
 [📄 **[Paper]()** | 🔗 **[Project]()** | 🐙 **[Repo]()** | 🤗 **[Dataset]()** ]
 
-### Text Only
+### 📝 Text Only
 
 Elementary level 
 Small datasets: Alg514 [📄 **[Paper](https://aclanthology.org/P14-1026.pdf)** | 🔗 **[Project](http://groups.csail.mit.edu/rbg/code/wordprobs/)** ], 
 
-**SVAMP** [📄 **[Paper](https://arxiv.org/abs/2103.07191)** | 🐙 **[Repo](https://github.com/arkilpatel/SVAMP)** ]: A collection of 1,000 elementary-level math word problems.
-
-**GSM8K** [📄 **[Paper](https://arxiv.org/abs/2110.14168)** | 🔗 **[Project](https://openai.com/index/solving-math-word-problems/)** | 🐙 **[Repo](https://github.com/openai/grade-school-math?tab=readme-ov-file)** ]: A dataset consists of 8.5K high-quality grade school math word problems. Each problem takes between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations (+ − × ÷) to reach the final answer. 
-
-**MATH**[🔗 **[Project](https://github.com/hendrycks/math/)**]: A challenging dataset that extends beyond the high school level and covers diverse topics, including algebra, precalculus, and number theory. Each problem in MATH has a full step-by-step solution.
-
-**NuminaMath** [📄 **[Paper](http://faculty.bicmr.pku.edu.cn/~dongbin/Publications/numina_dataset.pdf)** | 🐙 **[Repo](https://github.com/project-numina/aimo-progress-prize)** | 🤗 **[Dataset](https://huggingface.co/AI-MO)** ]: a comprehensive collection of 860,000 pairs ranging from high-school-level to advanced-competition-level. The dataset has both CoT and PoT rationales (NuminaMath-CoT and -TIR (tool integrated reasoning))
-
-**MetaMath** [📄 **[Paper](https://arxiv.org/abs/2309.12284)** | 🔗 **[Project](https://meta-math.github.io/)** | 🐙 **[Repo](https://github.com/meta-math/MetaMath)** | 🤗 **[Dataset](https://huggingface.co/datasets/meta-math/MetaMathQA)** ]: A dataset with 395K samples created by bootstrapping questions from MATH and GSM8K.
-
-**MathInstruct** [📄 **[Paper](https://arxiv.org/pdf/2309.05653)** | 🔗 **[Project](https://tiger-ai-lab.github.io/MAmmoTH/)** | 🐙 **[Repo](https://github.com/TIGER-AI-Lab/MAmmoTH)** | 🤗 **[Dataset](https://huggingface.co/datasets/TIGER-Lab/MathInstruct)** ]: A instruction tuning dataset that combines data from 13 mathematical rationale datasets, uniquely focusing on the hybrid use of chain-of-thought (CoT) and program-of-thought (PoT) rationales.
-
-**CoinMath** [📄 **[Paper](https://arxiv.org/abs/2412.11699)** | 🐙 **[Repo](https://github.com/TIGER-AI-Lab/MAmmoTH)** | 🤗 **[Dataset](https://huggingface.co/datasets/amao0o0/CoinMath)** ]: A dataset designed to enhance mathematical reasoning in large language models by incorporating diverse coding styles into code-based rationales. It includes math questions annotated with code-based solutions that feature concise comments, descriptive naming conventions, and hardcoded solutions
-
-**OpenMathInstruct-2** [📄 **[Paper](https://arxiv.org/abs/2410.01560)** | 🤗 **[Dataset](https://huggingface.co/collections/nvidia/openmath-2-66fb142317d86400783d2c7b)** ]: A math instruction tuning dataset with 14M problem-solution pairs generated using the Llama3.1-405B-Instruct model.
-
-**CAMEL Math** [📄 **[Paper](https://arxiv.org/abs/2303.17760)** | 🤗 **[Dataset](https://huggingface.co/datasets/camel-ai/math)** ]: Containing 50K problem-solution pairs obtained using GPT-4. The dataset problem-solutions pairs were generated from 25 math topics, and 25 subtopics for each topic.
+| Dataset | Descriptions | LinksLinks |
+|---------|-------|-------|
+|**SVAMP**|A collection of 1,000 elementary-level math word problems.|📄 **[Paper](https://arxiv.org/abs/2103.07191)** <br> 🐙 **[Repo](https://github.com/arkilpatel/SVAMP)**|
+|**GSM8K**|A dataset consists of 8.5K high-quality grade school math word problems. Each problem takes between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations (+ − × ÷) to reach the final answer. |📄 **[Paper](https://arxiv.org/abs/2110.14168)** <br> 🔗 **[Project](https://openai.com/index/solving-math-word-problems/)** <br> 🐙 **[Repo](https://github.com/openai/grade-school-math?tab=readme-ov-file)** |
+|**MATH**| A challenging dataset that extends beyond the high school level and covers diverse topics, including algebra, precalculus, and number theory. Each problem in MATH has a full step-by-step solution. | 🔗 **[Project](https://github.com/hendrycks/math/)**|
+|**NuminaMath** | A comprehensive collection of 860,000 pairs ranging from high-school-level to advanced-competition-level. The dataset has both CoT and PoT rationales (NuminaMath-CoT and -TIR (tool integrated reasoning)) | 📄 **[Paper](http://faculty.bicmr.pku.edu.cn/~dongbin/Publications/numina_dataset.pdf)** <br> 🐙 **[Repo](https://github.com/project-numina/aimo-progress-prize)** <br> 🤗 **[Dataset](https://huggingface.co/AI-MO)** |
+|**MetaMath**| A dataset with 395K samples created by bootstrapping questions from MATH and GSM8K. | 📄 **[Paper](https://arxiv.org/abs/2309.12284)** <br> 🔗 **[Project](https://meta-math.github.io/)** <br> 🐙 **[Repo](https://github.com/meta-math/MetaMath)** <br> 🤗 **[Dataset](https://huggingface.co/datasets/meta-math/MetaMathQA)** |
+|**MathInstruct**| A instruction tuning dataset that combines data from 13 mathematical rationale datasets, uniquely focusing on the hybrid use of chain-of-thought (CoT) and program-of-thought (PoT) rationales. | 📄 **[Paper](https://arxiv.org/pdf/2309.05653)** <br> 🔗 **[Project](https://tiger-ai-lab.github.io/MAmmoTH/)** <br> 🐙 **[Repo](https://github.com/TIGER-AI-Lab/MAmmoTH)** <br> 🤗 **[Dataset](https://huggingface.co/datasets/TIGER-Lab/MathInstruct)** |
+|**CoinMath**| A dataset designed to enhance mathematical reasoning in large language models by incorporating diverse coding styles into code-based rationales. It includes math questions annotated with code-based solutions that feature concise comments, descriptive naming conventions, and hardcoded solutions | 📄 **[Paper](https://arxiv.org/abs/2412.11699)** <br> 🐙 **[Repo](https://github.com/TIGER-AI-Lab/MAmmoTH)** <br> 🤗 **[Dataset](https://huggingface.co/datasets/amao0o0/CoinMath)** |
+|**OpenMathInstruct-2**| A math instruction tuning dataset with 14M problem-solution pairs generated using the Llama3.1-405B-Instruct model. | 📄 **[Paper](https://arxiv.org/abs/2410.01560)** <br> 🤗 **[Dataset](https://huggingface.co/collections/nvidia/openmath-2-66fb142317d86400783d2c7b)** |
+|**CAMEL Math**| Containing 50K problem-solution pairs obtained using GPT-4. The dataset problem-solutions pairs were generated from 25 math topics, and 25 subtopics for each topic. | 📄 **[Paper](https://arxiv.org/abs/2303.17760)** <br> 🤗 **[Dataset](https://huggingface.co/datasets/camel-ai/math)** |
 
 
-### Vision-Text Modality
+### 🖼️ Vision-Text Modality
 
-**GeoQA** [📄 **[Paper](https://arxiv.org/abs/2105.14517)** | 🐙 **[Repo](https://github.com/chen-judge/GeoQA)**]: Containing 4,998 Chinese geometric multiple-choice questions with rich domain-specific program annotations.
-
-**UniGeo** [📄 **[Paper](https://arxiv.org/abs/2212.02746)** | 🐙 **[Repo](https://github.com/chen-judge/UniGeo)**]: Containing 4,998 calculation problems and 9,543 proving problems.
-
-**Geo170K** [📄 **[Paper](https://arxiv.org/abs/2312.11370)** | 🐙 **[Repo](https://github.com/pipilurj/G-LLaVA?tab=readme-ov-file)** | 🤗 **[Dataset](https://huggingface.co/datasets/Luckyjhg/Geo170K/tree/main)**]: A synthesize dataset witch contains around 60,000 geometric image caption pairs and more than 110,000 question answer pairs.
-
-**MAVIS** [📄 **[Paper](https://arxiv.org/html/2407.08739v1)** | 🐙 **[Repo](https://github.com/ZrrSkywalker/MAVIS?tab=readme-ov-file)**]: Containing two datasets: 1. MAVIS-Caption: 588K high-quality caption-diagram pairs, spanning geometry and function, 2. MAVIS-Instruct: 834K instruction-tuning data with CoT rationales in a text-lite version.
-
-**Geometry3K** [📄 **[Paper](https://arxiv.org/abs/2105.04165)** | 🔗 **[Project](https://lupantech.github.io/inter-gps/)** | 🐙 **[Repo](https://github.com/lupantech/InterGPS)**]: Consisting of 3,002 geometry problems with dense annotation in formal language.
-
-**MathV360K** [🔗 **[Project](https://github.com/HZQ950419/Math-LLaVA)** | 🤗 **[Dataset](https://huggingface.co/datasets/Zhiqiang007/MathV360K)**]: Consisting 40K images from 24 datasets and 360K question-answer pairs.
-
-**MultiMath300K**: [🔗 **[Project](https://github.com/pengshuai-rin/MultiMath)**]: a multimodal, multilingual, multi-level, and multistep mathematical reasoning dataset that encompasses a wide range of K-12 level mathematical problem.
+| Dataset | Descriptions | LinksLinks |
+|---------|-------|-------|
+|**GeoQA**| Containing 4,998 Chinese geometric multiple-choice questions with rich domain-specific program annotations. |📄 **[Paper](https://arxiv.org/abs/2105.14517)** <br> 🐙 **[Repo](https://github.com/chen-judge/GeoQA)**| 
+|**UniGeo**| Containing 4,998 calculation problems and 9,543 proving problems. | 📄 **[Paper](https://arxiv.org/abs/2212.02746)** <br> 🐙 **[Repo](https://github.com/chen-judge/UniGeo)**|
+|**Geo170K**| A synthesize dataset witch contains around 60,000 geometric image caption pairs and more than 110,000 question answer pairs. | 📄 **[Paper](https://arxiv.org/abs/2312.11370)** <br> 🐙 **[Repo](https://github.com/pipilurj/G-LLaVA?tab=readme-ov-file)** <br> 🤗 **[Dataset](https://huggingface.co/datasets/Luckyjhg/Geo170K/tree/main)**|
+|**MAVIS**| Containing two datasets: 1. MAVIS-Caption: 588K high-quality caption-diagram pairs, spanning geometry and function, 2. MAVIS-Instruct: 834K instruction-tuning data with CoT rationales in a text-lite version. | 📄 **[Paper](https://arxiv.org/html/2407.08739v1)** <br> 🐙 **[Repo](https://github.com/ZrrSkywalker/MAVIS?tab=readme-ov-file)**|
+|**Geometry3K**| Consisting of 3,002 geometry problems with dense annotation in formal language. | 📄 **[Paper](https://arxiv.org/abs/2105.04165)** <br> 🔗 **[Project](https://lupantech.github.io/inter-gps/)** <br> 🐙 **[Repo](https://github.com/lupantech/InterGPS)**|
+|**MathV360K**| Consisting 40K images from 24 datasets and 360K question-answer pairs. | 🔗 **[Project](https://github.com/HZQ950419/Math-LLaVA)** <br> 🤗 **[Dataset](https://huggingface.co/datasets/Zhiqiang007/MathV360K)**|
+|**MultiMath300K**| A multimodal, multilingual, multi-level, and multistep mathematical reasoning dataset that encompasses a wide range of K-12 level mathematical problem. | 🔗 **[Project](https://github.com/pengshuai-rin/MultiMath)**|
 
 ---
 
