@@ -2,9 +2,13 @@
 
 This repo contains recent **open-sourced** math datasets (mainly English) for training and evaluating Math LLMs
 
+## Table of Contents
+- [Pre-training](#pre-training)
+- [Supervised Fine-Tuning](#supervised-fine-tuning)
+
 ---
 
-## ${\color{green}\text{Pre-training}}$
+## Pre-training
 
 [📄 **[Paper]()** | 🔗 **[Project]()** | 🐙 **[Repo]()** | 🤗 **[Dataset]()** ]
 
@@ -12,7 +16,7 @@ This repo contains recent **open-sourced** math datasets (mainly English) for tr
 
 | Dataset | Descriptions | Links |
 |---------|-------|-------|
-|**Open-Web-Math**| An open dataset inspired by these works containing 14.7B tokens of mathematical webpages from Common Crawl. | 📄 [Paper](https://arxiv.org/pdf/2310.06786) <br> 🐙 [Repo](https://github.com/keirp/OpenWebMath) <br> 🤗 [Dataset](https://huggingface.co/datasets/open-web-math/open-web-math) | 
+|**Open-Web-Math**| An open dataset inspired by these works containing 14.7B tokens of mathematical webpages from Common Crawl. | 📄 [Paper](https://arxiv.org/pdf/2310.06786) <br> 🐙 [Repo](https://github.com/keirp/OpenWebMath) <br> 🤗 [Dset](https://huggingface.co/datasets/open-web-math/open-web-math) | 
 |**Open-Web-Math-Pro**|Refined from open-web-math using the ProX refining framework. It contains about 5B high-quality math-related tokens, ready for pre-training.| 📄 [Paper](https://arxiv.org/pdf/2409.17115) <br> 🐙 [Repo](https://github.com/GAIR-NLP/ProX) <br> 🤗 [Dataset](https://huggingface.co/datasets/gair-prox/open-web-math-pro)|
 |**AMPS**| Auxiliary Mathematics Problems and Solutions.  A collection of mathematical problems and step-by-step solutions, comprising over 100,000 problems from Khan Academy and approximately 5 million problems generated using Mathematica scripts. | 🐙 [Repo](https://github.com/hendrycks/math?tab=readme-ov-file)|
 |**NaturalProofs**| A dataset designed to study mathematical reasoning in natural language, comprising approximately 32,000 theorem statements and proofs, 14,000 definitions, and 2,000 additional pages sourced from diverse mathematical domains |📄 [Paper](https://arxiv.org/abs/2104.01112) <br> 🐙 [Repo](https://github.com/wellecks/naturalproofs)|
@@ -31,7 +35,7 @@ This repo contains recent **open-sourced** math datasets (mainly English) for tr
 
 ---
 
-## ${\color{green}\text{SFT}}$
+## Supervised Fine-Tuning
 
 [📄 **[Paper]()** | 🔗 **[Project]()** | 🐙 **[Repo]()** | 🤗 **[Dataset]()** ]
 
