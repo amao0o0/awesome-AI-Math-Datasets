@@ -6,34 +6,34 @@ This repo contains recent **open-sourced** math datasets (mainly English) for tr
 
 ## ${\color{green}\text{Pre-training}}$
 
-[📄 **[Paper]()** | 🔗 **[Project]()** | 🐙 **[Repo]()** | 🤗 **[Dataset]()** ]
+[📄 **[Paper]()** | 🔗 **[Project]()** | 🐙 **[Repo]()** | 🤗 **[HF]()** ]
 
 ### 📝 Text Only
 
 | Dataset | Descriptions | Links |
 |---------|-------|-------|
-|**Open-Web-Math**| An open dataset inspired by these works containing 14.7B tokens of mathematical webpages from Common Crawl. | 📄 [Paper](https://arxiv.org/pdf/2310.06786) <br> 🐙 [Repo](https://github.com/keirp/OpenWebMath) <br> 🤗 [Dataset](https://huggingface.co/datasets/open-web-math/open-web-math)| 
-|**Open-Web-Math-Pro**|Refined from open-web-math using the ProX refining framework. It contains about 5B high-quality math-related tokens, ready for pre-training.| 📄 [Paper](https://arxiv.org/pdf/2409.17115) <br> 🐙 [Repo](https://github.com/GAIR-NLP/ProX) <br> 🤗 [Dataset](https://huggingface.co/datasets/gair-prox/open-web-math-pro)|
+|**Open-Web-Math**| An open dataset inspired by these works containing 14.7B tokens of mathematical webpages from Common Crawl. | 📄 [Paper](https://arxiv.org/pdf/2310.06786) <br> 🐙 [Repo](https://github.com/keirp/OpenWebMath) <br> 🤗 [HF](https://huggingface.co/datasets/open-web-math/open-web-math) | 
+|**Open-Web-Math-Pro**|Refined from open-web-math using the ProX refining framework. It contains about 5B high-quality math-related tokens, ready for pre-training.| 📄 [Paper](https://arxiv.org/pdf/2409.17115) <br> 🐙 [Repo](https://github.com/GAIR-NLP/ProX) <br> 🤗 [HF](https://huggingface.co/datasets/gair-prox/open-web-math-pro)|
 |**AMPS**| Auxiliary Mathematics Problems and Solutions.  A collection of mathematical problems and step-by-step solutions, comprising over 100,000 problems from Khan Academy and approximately 5 million problems generated using Mathematica scripts. | 🐙 [Repo](https://github.com/hendrycks/math?tab=readme-ov-file)|
 |**NaturalProofs**| A dataset designed to study mathematical reasoning in natural language, comprising approximately 32,000 theorem statements and proofs, 14,000 definitions, and 2,000 additional pages sourced from diverse mathematical domains |📄 [Paper](https://arxiv.org/abs/2104.01112) <br> 🐙 [Repo](https://github.com/wellecks/naturalproofs)|
-|**MathPile** | A math-centric corpus comprising about 9.5 billion tokens.| 📄 [Paper](https://huggingface.co/papers/2312.17120) <br> 🐙 [Repo](https://github.com/GAIR-NLP/MathPile/?tab=readme-ov-file) <br> 🤗 [Dataset](https://huggingface.co/datasets/GAIR/MathPile)|
-|**AlgebraicStack** | A dataset of 11B tokens of code specifically related to mathematics.| 📄 [Paper](https://arxiv.org/abs/2310.10631) <br> 🐙 [Repo](https://github.com/EleutherAI/math-lm?tab=readme-ov-file) <br> 🤗 [Dataset](https://huggingface.co/datasets/EleutherAI/proof-pile-2/tree/main/algebraic-stack)|
-|**MathCode-Pile** | Containing 19.2B tokens, with math-related data covering web pages, textbooks, model-synthesized text, and math-related code. | 📄 [Paper](https://arxiv.org/abs/2410.08196) <br> 🐙 [Repo](https://github.com/mathllm/MathCoder2) <br> 🤗 [Dataset](https://huggingface.co/datasets/MathGenie/MathCode-Pile)|
-|**FineMath** |  Consisting of 34B tokens (FineMath-3+) and 54B tokens (FineMath-3+ with InfiMM-WebMath-3+) of mathematical educational content filtered from CommonCrawl. | 📄 [Paper](https://arxiv.org/abs/2502.02737v1) <br> 🤗 [Dataset](https://huggingface.co/datasets/HuggingFaceTB/finemath)|
-|**Proof-Pile-2** | A 55 billion token dataset of mathematical and scientific documents from arxiv, open-web-math and algebraic-stack.| 📄 [Paper](https://arxiv.org/abs/2310.10631) <br> 🐙 [Repo](https://github.com/EleutherAI/math-lm?tab=readme-ov-file) <br> 🤗 [Dataset](https://huggingface.co/datasets/EleutherAI/proof-pile-2)|
-|**AutoMathText** | A dataset encompassing around 200 GB of mathematical texts. It's a compilation sourced from a diverse range of platforms including various websites, arXiv, and GitHub (OpenWebMath, RedPajama, Algebraic Stack). |📄[Paper](https://arxiv.org/abs/2402.07625) <br> 🐙[Repo](https://github.com/yifanzhang-pro/AutoMathText) <br> 🤗[Dataset](https://huggingface.co/datasets/math-ai/AutoMathText)|
+|**MathPile** | A math-centric corpus comprising about 9.5 billion tokens.| 📄 [Paper](https://huggingface.co/papers/2312.17120) <br> 🐙 [Repo](https://github.com/GAIR-NLP/MathPile/?tab=readme-ov-file) <br> 🤗 [HF](https://huggingface.co/datasets/GAIR/MathPile)|
+|**AlgebraicStack** | A dataset of 11B tokens of code specifically related to mathematics.| 📄 [Paper](https://arxiv.org/abs/2310.10631) <br> 🐙 [Repo](https://github.com/EleutherAI/math-lm?tab=readme-ov-file) <br> 🤗 [HF](https://huggingface.co/datasets/EleutherAI/proof-pile-2/tree/main/algebraic-stack)|
+|**MathCode-Pile** | Containing 19.2B tokens, with math-related data covering web pages, textbooks, model-synthesized text, and math-related code. | 📄 [Paper](https://arxiv.org/abs/2410.08196) <br> 🐙 [Repo](https://github.com/mathllm/MathCoder2) <br> 🤗 [HF](https://huggingface.co/datasets/MathGenie/MathCode-Pile)|
+|**FineMath** |  Consisting of 34B tokens (FineMath-3+) and 54B tokens (FineMath-3+ with InfiMM-WebMath-3+) of mathematical educational content filtered from CommonCrawl. | 📄 [Paper](https://arxiv.org/abs/2502.02737v1) <br> 🤗 [HF](https://huggingface.co/datasets/HuggingFaceTB/finemath)|
+|**Proof-Pile-2** | A 55 billion token dataset of mathematical and scientific documents from arxiv, open-web-math and algebraic-stack.| 📄 [Paper](https://arxiv.org/abs/2310.10631) <br> 🐙 [Repo](https://github.com/EleutherAI/math-lm?tab=readme-ov-file) <br> 🤗 [HF](https://huggingface.co/datasets/EleutherAI/proof-pile-2)|
+|**AutoMathText** | A dataset encompassing around 200 GB of mathematical texts. It's a compilation sourced from a diverse range of platforms including various websites, arXiv, and GitHub (OpenWebMath, RedPajama, Algebraic Stack). |📄[Paper](https://arxiv.org/abs/2402.07625) <br> 🐙[Repo](https://github.com/yifanzhang-pro/AutoMathText) <br> 🤗[HF](https://huggingface.co/datasets/math-ai/AutoMathText)|
 
 ### 🖼️ Vision-Text Modality
 
 | Dataset | Descriptions | Links |
 |---------|-------|-------|
-|**InfiMM-WebMath-40B**| A dataset of interleaved image-text documents. It comprises 24 million web pages, 85 million associated image URLs, and 40 billion text tokens, all meticulously extracted and filtered from CommonCrawl. | 📄 [Paper](https://arxiv.org/abs/2409.12568) <br> 🤗 [Dataset](https://huggingface.co/datasets/Infi-MM/InfiMM-WebMath-40B)|
+|**InfiMM-WebMath-40B**| A dataset of interleaved image-text documents. It comprises 24 million web pages, 85 million associated image URLs, and 40 billion text tokens, all meticulously extracted and filtered from CommonCrawl. | 📄 [Paper](https://arxiv.org/abs/2409.12568) <br> 🤗 [HF](https://huggingface.co/datasets/Infi-MM/InfiMM-WebMath-40B)|
 
 ---
 
 ## ${\color{green}\text{SFT}}$
 
-[📄 **[Paper]()** | 🔗 **[Project]()** | 🐙 **[Repo]()** | 🤗 **[Dataset]()** ]
+[📄 **[Paper]()** | 🔗 **[Project]()** | 🐙 **[Repo]()** | 🤗 **[HF]()** ]
 
 ### Text Only
 
