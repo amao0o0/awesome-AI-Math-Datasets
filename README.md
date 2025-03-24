@@ -110,6 +110,7 @@ This repo contains recent **open-source** math datasets (mainly English) for tra
 |**MathVista**| A benchmark designed to combine challenges from diverse mathematical and visual tasks. It consists of 6,141 examples, derived from 28 existing multimodal datasets involving mathematics and 3 newly created datasets | 🔗 [Project](https://mathvista.github.io/) <br> 🤗 [Dataset](https://huggingface.co/datasets/AI4Math/MathVista)|
 |**MATH-Vision**| A collection of 3,040 mathematical problems with visual contexts sourced from real math competitions. Spanning 16 distinct mathematical disciplines and graded across 5 levels of difficulty. | 🔗 [Project](https://mathllm.github.io/mathvision/) <br> 🤗 [Dataset](https://huggingface.co/datasets/MathLLMs/MathVision)|
 |**We-Math**| A collection of 6.5K visual math problems, spanning 67 hierarchical knowledge concepts and 5 layers of knowledge granularity. | 📄 [Paper](https://arxiv.org/abs/2407.01284) <br> 🔗 [Project](https://we-math.github.io/) <br> 🐙 [Repo](https://github.com/We-Math/We-Math) <br> 🤗 [Dataset](https://huggingface.co/datasets/We-Math/We-Math)|
+|**OlympiadBench**| A Olympiad-level bilingual multimodal scientific benchmark containing math and physics problems sourced from the International Olympiads, the Chinese Olympiad, and the Chinese College Entrance Exam (GaoKao) | 📄 [Paper](https://arxiv.org/abs/2402.14008) <br> 🐙 [Repo](https://github.com/OpenBMB/OlympiadBench?tab=readme-ov-file) <br> 🤗 [Dataset](https://huggingface.co/datasets/Hothan/OlympiadBench) |
 
 ---
 
