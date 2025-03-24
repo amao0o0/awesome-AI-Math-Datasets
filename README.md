@@ -116,3 +116,5 @@ This repo contains recent **open-source** math datasets (mainly English) for tra
 ## Related Repo
 
 https://github.com/tongyx361/Awesome-LLM4Math
+
+https://github.com/huggingface/evaluation-guidebook/blob/main/contents/automated-benchmarks/some-evaluation-datasets.md
