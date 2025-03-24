@@ -1,6 +1,9 @@
 # AI Math Datasets
 
-This repo contains recent **open-sourced** math datasets (mainly English) for training and evaluating Math LLMs
+This repo contains recent **open-source** math datasets (mainly English) for training and evaluating Math Language Learning Models (LLMs).
+
+> [!NOTE]  
+> This repo is currently under development and updated regularly.
 
 ## Table of Contents
 - [Pre-training](#pre-training)
@@ -12,7 +15,7 @@ This repo contains recent **open-sourced** math datasets (mainly English) for tr
 
 ## Pre-training
 
-📄 [Paper]() <br> 🔗 [Project]() <br> 🐙 [Repo]() <br> 🤗 [Dataset]()
+<!-- 📄 [Paper]() <br> 🔗 [Project]() <br> 🐙 [Repo]() <br> 🤗 [Dataset]() -->
 
 ### 📝 Text Only
 
@@ -31,7 +34,7 @@ This repo contains recent **open-sourced** math datasets (mainly English) for tr
 
 ### 🖼️ Vision-Text Modality
 
-| Dataset | Descriptions | Links |
+| Dataset | Descriptions | References |
 |---------|-------|-------|
 |**InfiMM-WebMath-40B**| A dataset of interleaved image-text documents. It comprises 24 million web pages, 85 million associated image URLs, and 40 billion text tokens, all meticulously extracted and filtered from CommonCrawl. | 📄 [Paper](https://arxiv.org/abs/2409.12568) <br> 🤗 [Dataset](https://huggingface.co/datasets/Infi-MM/InfiMM-WebMath-40B)|
 
@@ -39,21 +42,19 @@ This repo contains recent **open-sourced** math datasets (mainly English) for tr
 
 ## Supervised Fine-Tuning
 
-📄 [Paper]() <br> 🔗 [Project]() <br> 🐙 [Repo]() <br> 🤗 [Dataset]()
+<!-- 📄 [Paper]() <br> 🔗 [Project]() <br> 🐙 [Repo]() <br> 🤗 [Dataset]() -->
 
 ### 📝 Text Only
-
-Elementary level 
-Small datasets: Alg514 [📄 **[Paper](https://aclanthology.org/P14-1026.pdf)** | 🔗 **[Project](http://groups.csail.mit.edu/rbg/code/wordprobs/)** ], 
 
 | Dataset | Descriptions | References |
 |---------|-------|-------|
 |**SVAMP**|A collection of 1,000 elementary-level math word problems.|📄 **[Paper](https://arxiv.org/abs/2103.07191)** <br> 🐙 [Repo](https://github.com/arkilpatel/SVAMP)|
 |**GSM8K**|A dataset consists of 8.5K high-quality grade school math word problems. Each problem takes between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations (+ − × ÷) to reach the final answer. |📄 [Paper](https://arxiv.org/abs/2110.14168) <br> 🔗 [Project](https://openai.com/index/solving-math-word-problems/) <br> 🐙 [Repo](https://github.com/openai/grade-school-math?tab=readme-ov-file) |
+|**MathQA**| A dataset of 37k English multiple-choice math word problems covering multiple math domain categories by modeling operation programs corresponding to word problems in the AQuA dataset | 🔗 [Project](https://math-qa.github.io/math-QA/) |
 |**MATH**| A challenging dataset that extends beyond the high school level and covers diverse topics, including algebra, precalculus, and number theory. Each problem in MATH has a full step-by-step solution. | 🔗 [Project](https://github.com/hendrycks/math/)|
 |**NuminaMath** | A comprehensive collection of 860,000 pairs ranging from high-school-level to advanced-competition-level. The dataset has both CoT and PoT rationales (NuminaMath-CoT and -TIR (tool integrated reasoning)) | 📄 [Paper](http://faculty.bicmr.pku.edu.cn/~dongbin/Publications/numina_dataset.pdf) <br> 🐙 [Repo](https://github.com/project-numina/aimo-progress-prize) <br> 🤗 [Dataset](https://huggingface.co/AI-MO) |
 |**MetaMath**| A dataset with 395K samples created by bootstrapping questions from MATH and GSM8K. | 📄 [Paper](https://arxiv.org/abs/2309.12284) <br> 🔗 [Project](https://meta-math.github.io/) <br> 🐙 [Repo](https://github.com/meta-math/MetaMath) <br> 🤗 [Dataset](https://huggingface.co/datasets/meta-math/MetaMathQA) |
-|**MathInstruct**| A instruction tuning dataset that combines data from 13 mathematical rationale datasets, uniquely focusing on the hybrid use of chain-of-thought (CoT) and program-of-thought (PoT) rationales. | 📄 [Paper](https://arxiv.org/pdf/2309.05653) <br> 🔗 [Project](https://tiger-ai-lab.github.io/MAmmoTH/) <br> 🐙 [Repo](https://github.com/TIGER-AI-Lab/MAmmoTH) <br> 🤗 [Dataset](https://huggingface.co/datasets/TIGER-Lab/MathInstruct) |
+|**MathInstruct**| An instruction tuning dataset that combines data from 13 mathematical rationale datasets, uniquely focusing on the hybrid use of chain-of-thought (CoT) and program-of-thought (PoT) rationales. | 📄 [Paper](https://arxiv.org/pdf/2309.05653) <br> 🔗 [Project](https://tiger-ai-lab.github.io/MAmmoTH/) <br> 🐙 [Repo](https://github.com/TIGER-AI-Lab/MAmmoTH) <br> 🤗 [Dataset](https://huggingface.co/datasets/TIGER-Lab/MathInstruct) |
 |**CoinMath**| A dataset designed to enhance mathematical reasoning in large language models by incorporating diverse coding styles into code-based rationales. It includes math questions annotated with code-based solutions that feature concise comments, descriptive naming conventions, and hardcoded solutions | 📄 [Paper](https://arxiv.org/abs/2412.11699) <br> 🐙 [Repo](https://github.com/TIGER-AI-Lab/MAmmoTH) <br> 🤗 [Dataset](https://huggingface.co/datasets/amao0o0/CoinMath) |
 |**OpenMathInstruct-2**| A math instruction tuning dataset with 14M problem-solution pairs generated using the Llama3.1-405B-Instruct model. | 📄 [Paper](https://arxiv.org/abs/2410.01560) <br> 🤗 [Dataset](https://huggingface.co/collections/nvidia/openmath-2-66fb142317d86400783d2c7b) |
 |**CAMEL Math**| Containing 50K problem-solution pairs obtained using GPT-4. The dataset problem-solutions pairs were generated from 25 math topics, and 25 subtopics for each topic. | 📄 [Paper](https://arxiv.org/abs/2303.17760) <br> 🤗 [Dataset](https://huggingface.co/datasets/camel-ai/math) |
@@ -75,6 +76,10 @@ Small datasets: Alg514 [📄 **[Paper](https://aclanthology.org/P14-1026.pdf)** 
 
 ## Reinforcement Learning
 
+​While many datasets listed in [Supervised Fine-Tuning](#supervised-fine-tuning) can be adapted for reinforcement learning, we specifically highlight datasets explicitly designed for RL as indicated in their respective references.
+
+<!-- 📄 [Paper]() <br> 🔗 [Project]() <br> 🐙 [Repo]() <br> 🤗 [Dataset]() -->
+
 ### 📝 Text Only
 | Dataset | Descriptions | References |
 |---------|-------|-------|
@@ -86,7 +91,7 @@ Small datasets: Alg514 [📄 **[Paper](https://aclanthology.org/P14-1026.pdf)** 
 
 ## Benchmark
 
-📄 [Paper]() <br> 🔗 [Project]() <br> 🐙 [Repo]() <br> 🤗 [Dataset]()
+<!-- 📄 [Paper]() <br> 🔗 [Project]() <br> 🐙 [Repo]() <br> 🤗 [Dataset]() -->
 
 ### 📝 Text Only
 | Dataset | Descriptions | References |
@@ -109,5 +114,5 @@ Small datasets: Alg514 [📄 **[Paper](https://aclanthology.org/P14-1026.pdf)** 
 ---
 
 ## Related Repo
- 
- https://github.com/tongyx361/Awesome-LLM4Math
+
+https://github.com/tongyx361/Awesome-LLM4Math
