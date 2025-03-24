@@ -1,6 +1,6 @@
 # AI Math Datasets
 
-This repo contains recent **open-source** math datasets (mainly English) for training and evaluating Math Language Learning Models (LLMs).
+This repo contains recent **open-source** math datasets (mainly English) for training and evaluating Math Large Language Models (LLMs).
 
 > [!NOTE]  
 > This repo is currently under development and updated regularly.
