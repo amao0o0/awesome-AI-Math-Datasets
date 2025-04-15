@@ -31,6 +31,7 @@ This repo contains recent **open-source** math datasets (mainly English) for tra
 |**FineMath** |  Consisting of 34B tokens (FineMath-3+) and 54B tokens (FineMath-3+ with InfiMM-WebMath-3+) of mathematical educational content filtered from CommonCrawl. | 📄 [Paper](https://arxiv.org/abs/2502.02737v1) <br> 🤗 [Dataset](https://huggingface.co/datasets/HuggingFaceTB/finemath)|
 |**Proof-Pile-2** | A 55 billion token dataset of mathematical and scientific documents from arxiv, open-web-math and algebraic-stack.| 📄 [Paper](https://arxiv.org/abs/2310.10631) <br> 🐙 [Repo](https://github.com/EleutherAI/math-lm?tab=readme-ov-file) <br> 🤗 [Dataset](https://huggingface.co/datasets/EleutherAI/proof-pile-2)|
 |**AutoMathText** | A dataset encompassing around 200 GB of mathematical texts. It's a compilation sourced from a diverse range of platforms including various websites, arXiv, and GitHub (OpenWebMath, RedPajama, Algebraic Stack). |📄[Paper](https://arxiv.org/abs/2402.07625) <br> 🐙[Repo](https://github.com/yifanzhang-pro/AutoMathText) <br> 🤗[Dataset](https://huggingface.co/datasets/math-ai/AutoMathText)|
+|**MegaMath** | An open math pretraining dataset curated from diverse, math-focused sources, with over 300B tokens. |📄[Paper](https://arxiv.org/abs/2504.02807) <br> 🐙[Repo](https://github.com/LLM360/MegaMath) <br> 🤗[Dataset](https://huggingface.co/datasets/LLM360/MegaMath)|
 
 ### 🖼️ Vision-Text Modality
 
