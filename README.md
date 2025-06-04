@@ -103,6 +103,7 @@ This repo contains recent **open-source** math datasets (mainly English) for tra
 |**MathOdyssey**| A collection of 387 mathematical problems for evaluating the general mathematical capacities of LLMs. Featuring a spectrum of questions from Olympiad-level competitions, advanced high school curricula, and university-level mathematics. | 📄 [Paper](https://arxiv.org/abs/2406.18321) <br> 🔗 [Project](https://mathodyssey.github.io/) <br> 🐙 [Repo](https://github.com/protagolabs/odyssey-math) |
 |**Omni-MATH**| A challenging benchmark specifically designed to assess LLMs' mathematical reasoning at the Olympiad level. | 📄 [Paper](https://arxiv.org/abs/2410.07985) <br> 🔗 [Project](https://omni-math.github.io/) <br> 🐙 [Repo](https://github.com/KbsdJames/Omni-MATH) <br> 🤗 [Dataset](https://huggingface.co/datasets/KbsdJames/Omni-MATH)|
 |**HARP**| A math reasoning dataset consisting of 4,780 short answer questions from US national math competitions. | 📄 [Paper](https://arxiv.org/abs/2412.08819) <br> 🐙 [Repo](https://github.com/aadityasingh/HARP?tab=readme-ov-file)|
+|**PolyMath**| A multilingual mathematical reasoning benchmark covering 18 languages and 4 easy-to-hard difficulty levels. | 📄 [Paper](https://arxiv.org/abs/2504.18428) <br> 🐙 [Repo](https://github.com/QwenLM/PolyMath) <br> 🤗 [Dataset](https://huggingface.co/datasets/Qwen/PolyMath) |
 
 ### 🖼️ Vision-Text Modality
 
