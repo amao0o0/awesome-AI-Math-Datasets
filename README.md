@@ -116,6 +116,12 @@ This repo contains recent **open-source** math datasets (mainly English) for tra
 |**We-Math**| A collection of 6.5K visual math problems, spanning 67 hierarchical knowledge concepts and 5 layers of knowledge granularity. | 📄 [Paper](https://arxiv.org/abs/2407.01284) <br> 🔗 [Project](https://we-math.github.io/) <br> 🐙 [Repo](https://github.com/We-Math/We-Math) <br> 🤗 [Dataset](https://huggingface.co/datasets/We-Math/We-Math)|
 |**OlympiadBench**| A Olympiad-level bilingual multimodal scientific benchmark containing math and physics problems sourced from the International Olympiads, the Chinese Olympiad, and the Chinese College Entrance Exam (GaoKao) | 📄 [Paper](https://arxiv.org/abs/2402.14008) <br> 🐙 [Repo](https://github.com/OpenBMB/OlympiadBench?tab=readme-ov-file) <br> 🤗 [Dataset](https://huggingface.co/datasets/Hothan/OlympiadBench) |
 
+### 🎤 Speech Modality
+
+| Dataset | Descriptions | References |
+|---------|-------|-------|
+|**Spoken-MQA**| A benchmark designed to evaluate large language models’ mathematical reasoning ability from spoken input. It features math problems covering arithmetic, contextual reasoning, and knowledge-based reasoning. | 📄 [Paper](https://arxiv.org/abs/2505.15000) <br> 🐙 [Repo](https://github.com/amao0o0/Spoken-MQA) <br> 🤗 [Dataset](https://huggingface.co/datasets/amao0o0/spoken-mqa)|
+
 ---
 
 ## Related Repo
