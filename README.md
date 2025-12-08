@@ -32,6 +32,7 @@ This repo contains recent **open-source** math datasets (mainly English) for tra
 |**Proof-Pile-2** | A 55 billion token dataset of mathematical and scientific documents from arxiv, open-web-math and algebraic-stack.| 📄 [Paper](https://arxiv.org/abs/2310.10631) <br> 🐙 [Repo](https://github.com/EleutherAI/math-lm?tab=readme-ov-file) <br> 🤗 [Dataset](https://huggingface.co/datasets/EleutherAI/proof-pile-2)|
 |**AutoMathText** | A dataset encompassing around 200 GB of mathematical texts. It's a compilation sourced from a diverse range of platforms including various websites, arXiv, and GitHub (OpenWebMath, RedPajama, Algebraic Stack). |📄[Paper](https://arxiv.org/abs/2402.07625) <br> 🐙[Repo](https://github.com/yifanzhang-pro/AutoMathText) <br> 🤗[Dataset](https://huggingface.co/datasets/math-ai/AutoMathText)|
 |**MegaMath** | An open math pretraining dataset curated from diverse, math-focused sources, with over 300B tokens. |📄[Paper](https://arxiv.org/abs/2504.02807) <br> 🐙[Repo](https://github.com/LLM360/MegaMath) <br> 🤗[Dataset](https://huggingface.co/datasets/LLM360/MegaMath)|
+|**Nemotron-CC-Math**| A 133 billion token large-scale math corpus extracted from Common Crawl. |📄[Paper]() <br> 🐙[Repo](https://huggingface.co/blog/nvidia/nemotron-cc-math) <br> 🤗[Dataset](https://huggingface.co/datasets/nvidia/Nemotron-CC-Math-v1)|
 
 ### 🖼️ Vision-Text Modality
 
@@ -105,6 +106,7 @@ This repo contains recent **open-source** math datasets (mainly English) for tra
 |**Omni-MATH**| A challenging benchmark specifically designed to assess LLMs' mathematical reasoning at the Olympiad level. | 📄 [Paper](https://arxiv.org/abs/2410.07985) <br> 🔗 [Project](https://omni-math.github.io/) <br> 🐙 [Repo](https://github.com/KbsdJames/Omni-MATH) <br> 🤗 [Dataset](https://huggingface.co/datasets/KbsdJames/Omni-MATH)|
 |**HARP**| A math reasoning dataset consisting of 4,780 short answer questions from US national math competitions. | 📄 [Paper](https://arxiv.org/abs/2412.08819) <br> 🐙 [Repo](https://github.com/aadityasingh/HARP?tab=readme-ov-file)|
 |**PolyMath**| A multilingual mathematical reasoning benchmark covering 18 languages and 4 easy-to-hard difficulty levels. | 📄 [Paper](https://arxiv.org/abs/2504.18428) <br> 🐙 [Repo](https://github.com/QwenLM/PolyMath) <br> 🤗 [Dataset](https://huggingface.co/datasets/Qwen/PolyMath) |
+｜**MathMist**| A parallel multilingual benchmark for math problem solving and reasoning, containing 21K+ aligned question–answer pairs across 7 languages, covering high-, medium-, and low-resource settings. | 📄 [Paper](https://arxiv.org/abs/2504.18428) <br> 🐙 [Repo](https://github.com/QwenLM/PolyMath) <br> 🤗 [Dataset](https://huggingface.co/datasets/Qwen/PolyMath) |
 
 ### 🖼️ Vision-Text Modality
 
@@ -114,7 +116,7 @@ This repo contains recent **open-source** math datasets (mainly English) for tra
 |**MathVista**| A benchmark designed to combine challenges from diverse mathematical and visual tasks. It consists of 6,141 examples, derived from 28 existing multimodal datasets involving mathematics and 3 newly created datasets | 🔗 [Project](https://mathvista.github.io/) <br> 🤗 [Dataset](https://huggingface.co/datasets/AI4Math/MathVista)|
 |**MATH-Vision**| A collection of 3,040 mathematical problems with visual contexts sourced from real math competitions. Spanning 16 distinct mathematical disciplines and graded across 5 levels of difficulty. | 🔗 [Project](https://mathllm.github.io/mathvision/) <br> 🤗 [Dataset](https://huggingface.co/datasets/MathLLMs/MathVision)|
 |**We-Math**| A collection of 6.5K visual math problems, spanning 67 hierarchical knowledge concepts and 5 layers of knowledge granularity. | 📄 [Paper](https://arxiv.org/abs/2407.01284) <br> 🔗 [Project](https://we-math.github.io/) <br> 🐙 [Repo](https://github.com/We-Math/We-Math) <br> 🤗 [Dataset](https://huggingface.co/datasets/We-Math/We-Math)|
-|**OlympiadBench**| A Olympiad-level bilingual multimodal scientific benchmark containing math and physics problems sourced from the International Olympiads, the Chinese Olympiad, and the Chinese College Entrance Exam (GaoKao) | 📄 [Paper](https://arxiv.org/abs/2402.14008) <br> 🐙 [Repo](https://github.com/OpenBMB/OlympiadBench?tab=readme-ov-file) <br> 🤗 [Dataset](https://huggingface.co/datasets/Hothan/OlympiadBench) |
+|**OlympiadBench**| A Olympiad-level bilingual multimodal scientific benchmark containing math and physics problems sourced from the International Olympiads, the Chinese Olympiad, and the Chinese College Entrance Exam (GaoKao) | 📄 [Paper](https://arxiv.org/pdf/2510.14305) <br> 🐙 [Repo](https://github.com/mahbubhimel/MathMist) |
 
 ### 🎤 Speech Modality
 
