@@ -4,6 +4,7 @@ This repo contains recent **open-source** math datasets (mainly English) for tra
 
 > [!NOTE]  
 > This repo is currently under development and updated regularly.
+> 🗓️ Last updated: 2026-03-29
 
 ## Table of Contents
 - [Pre-training](#pre-training)
